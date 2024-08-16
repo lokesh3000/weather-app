@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    background-color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 1.2vw
+}
+.container{
+    margin-top: 25vh;
+    background-color: skyblue;
+    width: 37vw;
+    height:40vh ;
+    border: 2px solid black;
+}
+::placeholder{
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+#inputbox{
+    height: 4vh;
+    width: 15vw;
+    text-align: center;
+    border-radius: 2vh;
+}
+button{
+    height: 4vh;
+    width: 6vw;
+    font-size: 1.1vw;
+    text-align: center;
+    border-radius: 2vh;
+}
+p{
+    color: #0c0d61d4;
+}
+.card{
+    padding: 1.5vh 1.2vw;
+    text-align: center;
+}
+.details{
+    display: flex;
+    margin-left: 4vw;
+}
