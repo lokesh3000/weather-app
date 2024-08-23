@@ -35,3 +35,6 @@ logo.src = data.current.condition.icon;
 weatherStatus.innerHTML = data.current.condition.text;
 
 }
+setTimeout(3000,const notif =()=>{
+    alert("press any key or touch the screen ")}
+           )
